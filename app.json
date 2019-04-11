@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/index",
+    "pages/setting/index",
+    "pages/games/index",
+    "pages/gamesList/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color":"#666",
+    "selectedColor":"#f00",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "找厕所",
+        "iconPath":"images/t.png",
+        "selectedIconPath":"images/t1.png"
+      },
+      {
+        "pagePath": "pages/news/index",
+        "text": "笑话",
+        "iconPath": "images/a.png",
+        "selectedIconPath": "images/a1.png"
+      },
+      {
+        "pagePath": "pages/games/index",
+        "text": "游戏",
+        "iconPath": "images/yx.png",
+        "selectedIconPath": "images/yx1.png"
+      },
+      {
+        "pagePath": "pages/setting/index",
+        "text": "设置",
+        "iconPath": "images/s.png",
+        "selectedIconPath": "images/s1.png"
+      }
+    ]
+  },
+  "permission":{
+    "scope.userLocation":{
+      "desc":"我要获取你的位置才能给你找厕所"
+    }
+  }
+}
